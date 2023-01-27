@@ -10,8 +10,8 @@ body {
 }
 
 .music {
-  width: 300px;
-  height: 200px;
+  width: 18.75rem;
+  height: 12.5rem;
   position: relative;
   display: inline-flex;
   align-items: center;
@@ -19,8 +19,8 @@ body {
 }
 
 .music .bar {
-  width: 12px;
-  border-radius: 10px;
+  width: 0.75rem;
+  border-radius: 0.625rem;
   background: #fff;
   animation: movement 1.5s ease-in-out infinite;
 }
@@ -29,11 +29,11 @@ body {
 
   0%,
   100% {
-    height: 2px;
+    height: 0.125rem;
   }
 
   50% {
-    height: 80px;
+    height: 5rem;
   }
 }
 
